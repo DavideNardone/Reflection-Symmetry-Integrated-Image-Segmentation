@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  OpenCV
+//
+//  Created by Thomas Post on 04.10.12.
+//
+//
+
+HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.2/**
+LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.4.2/**
+
+OTHER_LDFLAGS = -lopencv_core -lopencv_highgui -lopencv_imgproc
